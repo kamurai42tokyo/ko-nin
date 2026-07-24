@@ -348,4 +348,339 @@ export const englishQuestions: Question[] = [
       "run a little longer each week「毎週少しずつ長く走る」が言い換えられている。wanted to give up は「やめたくなった」であり、実際にやめてはいない点に注意。",
     tags: ["内容一致"],
   },
+
+  // ── 強勢・アクセント（追加） ───────────────────────
+  {
+    id: "english-stress-5",
+    subject: "english",
+    unit: "stress",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "次の語で最も強く発音する部分はどれか。\npho - to - graph",
+    choices: ["pho", "to", "graph"],
+    answerIndex: 0,
+    explanation:
+      "photograph は PHO-to-graph と第1音節を強く読む。ただし photographer は pho-TOG-ra-pher と位置が変わる。語尾で変化する例として押さえておく。",
+    tags: ["アクセント"],
+  },
+  {
+    id: "english-stress-6",
+    subject: "english",
+    unit: "stress",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "次の語で最も強く発音する部分はどれか。\nun - der - stand",
+    choices: ["un", "der", "stand"],
+    answerIndex: 2,
+    explanation:
+      "understand は un-der-STAND と最後の -stand を強く読む。同じ形の understand / recommend など、動詞の後半にアクセントが来る語がある。",
+    tags: ["アクセント"],
+  },
+  {
+    id: "english-stress-7",
+    subject: "english",
+    unit: "stress",
+    format: "multiple-choice",
+    difficulty: "standard",
+    stem: "次の語で最も強く発音する部分はどれか。\ne - con - o - my",
+    choices: ["e", "con", "o", "my"],
+    answerIndex: 1,
+    explanation:
+      "economy は e-CON-o-my と第2音節を強く読む。派生語 economic は ec-o-NOM-ic とアクセントが移動するので、セットで覚えると混同しない。",
+    tags: ["アクセント"],
+  },
+  {
+    id: "english-stress-8",
+    subject: "english",
+    unit: "stress",
+    format: "multiple-choice",
+    difficulty: "standard",
+    stem: "次の語で最も強く発音する部分はどれか。\nmu - si - cian",
+    choices: ["mu", "si", "cian"],
+    answerIndex: 1,
+    explanation:
+      "musician は mu-SI-cian と第2音節を強く読む。-tion / -cian / -sion で終わる語は、その直前の音節にアクセントが来る（attention, decision なども同じ）。",
+    tags: ["アクセント"],
+  },
+
+  // ── 対話文（追加） ─────────────────────────────────
+  {
+    id: "english-dialogue-6",
+    subject: "english",
+    unit: "dialogue",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "（店で）\nA: May I help you?\nB: (    )",
+    choices: [
+      "Yes, I'm looking for a jacket.",
+      "No, you may not.",
+      "Here you are.",
+      "It's very kind of you to come.",
+    ],
+    answerIndex: 0,
+    explanation:
+      "May I help you? は店員の「いらっしゃいませ／お手伝いしましょうか」。客は探しているものを伝えるのが自然。断るなら No, thank you. I'm just looking. と言う。",
+    tags: ["店での会話"],
+  },
+  {
+    id: "english-dialogue-7",
+    subject: "english",
+    unit: "dialogue",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "A: How about going to the movies this weekend?\nB: (    )",
+    choices: [
+      "Sounds good. What shall we see?",
+      "Yes, I went there last week.",
+      "You're welcome.",
+      "It's ten o'clock.",
+    ],
+    answerIndex: 0,
+    explanation:
+      "How about 〜ing? は「〜しませんか」という提案。応じるときは Sounds good. / That's a good idea. などで受け、話を先に進める。",
+    tags: ["提案"],
+  },
+  {
+    id: "english-dialogue-8",
+    subject: "english",
+    unit: "dialogue",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "A: Thank you very much for your help.\nB: (    )",
+    choices: [
+      "You're welcome.",
+      "That's all right, I'm late.",
+      "No, thank you.",
+      "Yes, please.",
+    ],
+    answerIndex: 0,
+    explanation:
+      "感謝への応答は You're welcome. / My pleasure. / No problem. が定型。That's all right. は謝罪への応答なので場面が違う。",
+    tags: ["感謝"],
+  },
+  {
+    id: "english-dialogue-9",
+    subject: "english",
+    unit: "dialogue",
+    format: "multiple-choice",
+    difficulty: "standard",
+    stem: "A: You look tired. Why don't you take a rest?\nB: (    )",
+    choices: [
+      "Thanks, I think I will.",
+      "Because I am busy.",
+      "No, I don't have a rest.",
+      "Yes, you look tired too.",
+    ],
+    answerIndex: 0,
+    explanation:
+      "Why don't you 〜? は「〜したらどう？」という提案・助言。理由を聞いているのではないので Because 〜 では答えない。受け入れるなら Thanks, I think I will. が自然。",
+    tags: ["提案"],
+  },
+  {
+    id: "english-dialogue-10",
+    subject: "english",
+    unit: "dialogue",
+    format: "multiple-choice",
+    difficulty: "standard",
+    stem: "A: Do you mind if I open the window?\nB: (    ) Please go ahead.",
+    choices: [
+      "Not at all.",
+      "Yes, of course.",
+      "That's too bad.",
+      "You're welcome.",
+    ],
+    answerIndex: 0,
+    explanation:
+      "Do you mind if 〜? は直訳すると「〜したら気にしますか」。許可するときは「気にしません」＝ Not at all. / Of course not. と否定で答える。Yes と答えると「困る」の意味になり、直後の Please go ahead. と矛盾する。",
+    tags: ["許可"],
+  },
+
+  // ── 語彙・語法（追加） ─────────────────────────────
+  {
+    id: "english-vocab-7",
+    subject: "english",
+    unit: "vocab",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "She is interested (    ) Japanese history.",
+    choices: ["in", "on", "at", "to"],
+    answerIndex: 0,
+    explanation:
+      "be interested in 〜「〜に興味がある」。前置詞は in で固定。感情を表す形容詞と前置詞の組み合わせは丸ごと覚える。",
+    tags: ["前置詞"],
+  },
+  {
+    id: "english-vocab-8",
+    subject: "english",
+    unit: "vocab",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "I have never (    ) to Kyoto.",
+    choices: ["been", "gone", "went", "being"],
+    answerIndex: 0,
+    explanation:
+      "have been to 〜「〜へ行ったことがある」（経験）。have gone to 〜 は「行ってしまって今ここにいない」の意味になるので、自分が話している場面では been を使う。",
+    tags: ["現在完了"],
+  },
+  {
+    id: "english-vocab-9",
+    subject: "english",
+    unit: "vocab",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "This is the book (    ) I bought yesterday.",
+    choices: ["which", "who", "where", "what"],
+    answerIndex: 0,
+    explanation:
+      "先行詞が the book（もの）で、後ろが「私が買った」と目的語が欠けている文なので、目的格の関係代名詞 which（または that）が入る。人なら who、場所なら where。",
+    tags: ["関係代名詞"],
+  },
+  {
+    id: "english-vocab-10",
+    subject: "english",
+    unit: "vocab",
+    format: "multiple-choice",
+    difficulty: "basic",
+    stem: "He is as (    ) as his father.",
+    choices: ["tall", "taller", "tallest", "more tall"],
+    answerIndex: 0,
+    explanation:
+      "as 〜 as … 「…と同じくらい〜」の間には、形容詞は必ず原級（もとの形）を置く。比較級 taller は入らない。",
+    tags: ["比較"],
+  },
+  {
+    id: "english-vocab-11",
+    subject: "english",
+    unit: "vocab",
+    format: "multiple-choice",
+    difficulty: "standard",
+    stem: "If I (    ) you, I would study harder.",
+    choices: ["were", "am", "will be", "have been"],
+    answerIndex: 0,
+    explanation:
+      "現実に反する仮定を表す仮定法過去。If節では be動詞は主語に関係なく were を使うのが原則。主節が would 〜 になっているのがヒント。",
+    tags: ["仮定法"],
+  },
+  {
+    id: "english-vocab-12",
+    subject: "english",
+    unit: "vocab",
+    format: "multiple-choice",
+    difficulty: "standard",
+    stem: "The boy (    ) over there is my brother.",
+    choices: ["running", "run", "ran", "runs"],
+    answerIndex: 0,
+    explanation:
+      "「向こうで走っている少年」と名詞を後ろから修飾する現在分詞。the boy who is running を1語にした形。動詞の原形や過去形は名詞を修飾できない。",
+    tags: ["分詞"],
+  },
+
+  // ── 図表読み取り（追加：イベント案内） ─────────────
+  {
+    id: "english-chart-4",
+    subject: "english",
+    unit: "chart",
+    format: "multiple-choice",
+    difficulty: "basic",
+    passage:
+      "SUMMER MUSIC FESTIVAL\n\nDate    Saturday, August 3\nTime    2:00 p.m. – 8:00 p.m.\nPlace   Riverside Park\n\nTickets\n  Adults      2,000 yen\n  Students    1,000 yen\n  Children under 6   Free\n\n* Bring your own drink. Food trucks available.\n* The event will be canceled if it rains.",
+    stem: "How much is a ticket for a student?",
+    choices: ["1,000 yen.", "2,000 yen.", "Free.", "3,000 yen."],
+    answerIndex: 0,
+    explanation:
+      "Tickets の欄に Students 1,000 yen とある。Adults の 2,000 yen と取り違えないよう、行を正確に読む。",
+    tags: ["案内文"],
+  },
+  {
+    id: "english-chart-5",
+    subject: "english",
+    unit: "chart",
+    format: "multiple-choice",
+    difficulty: "basic",
+    passage:
+      "SUMMER MUSIC FESTIVAL\n\nDate    Saturday, August 3\nTime    2:00 p.m. – 8:00 p.m.\nPlace   Riverside Park\n\nTickets\n  Adults      2,000 yen\n  Students    1,000 yen\n  Children under 6   Free\n\n* Bring your own drink. Food trucks available.\n* The event will be canceled if it rains.",
+    stem: "What time does the festival start?",
+    choices: ["At 2:00 p.m.", "At 8:00 p.m.", "At 6:00 p.m.", "At 3:00 p.m."],
+    answerIndex: 0,
+    explanation:
+      "Time の欄は 2:00 p.m. – 8:00 p.m.。前の時刻が開始、後ろが終了。8:00 p.m. は終了時刻。",
+    tags: ["案内文"],
+  },
+  {
+    id: "english-chart-6",
+    subject: "english",
+    unit: "chart",
+    format: "multiple-choice",
+    difficulty: "standard",
+    passage:
+      "SUMMER MUSIC FESTIVAL\n\nDate    Saturday, August 3\nTime    2:00 p.m. – 8:00 p.m.\nPlace   Riverside Park\n\nTickets\n  Adults      2,000 yen\n  Students    1,000 yen\n  Children under 6   Free\n\n* Bring your own drink. Food trucks available.\n* The event will be canceled if it rains.",
+    stem: "Which is true about the festival?",
+    choices: [
+      "It will be canceled in case of rain.",
+      "Drinks are sold at the entrance.",
+      "Children of all ages must pay 1,000 yen.",
+      "It is held on Sunday.",
+    ],
+    answerIndex: 0,
+    explanation:
+      "最後の注意書きに canceled if it rains とある。飲み物は各自持参（Bring your own drink）、6歳未満は無料、開催は土曜日なので他は誤り。",
+    tags: ["内容一致"],
+  },
+
+  // ── 読解（追加） ───────────────────────────────────
+  {
+    id: "english-reading-4",
+    subject: "english",
+    unit: "reading",
+    format: "multiple-choice",
+    difficulty: "basic",
+    passage:
+      "Emma loves plants. Last year she started growing tomatoes on her balcony. She read many books and watered them every day. In summer she got more than fifty tomatoes. She gave some to her neighbors, and they were very happy. Now Emma wants to grow other vegetables, too.",
+    stem: "What did Emma start growing last year?",
+    choices: ["Tomatoes.", "Flowers.", "Other vegetables.", "Books."],
+    answerIndex: 0,
+    explanation:
+      "第2文に started growing tomatoes とある。other vegetables は「これから育てたいもの」で、今後の話。",
+    tags: ["内容把握"],
+  },
+  {
+    id: "english-reading-5",
+    subject: "english",
+    unit: "reading",
+    format: "multiple-choice",
+    difficulty: "basic",
+    passage:
+      "Emma loves plants. Last year she started growing tomatoes on her balcony. She read many books and watered them every day. In summer she got more than fifty tomatoes. She gave some to her neighbors, and they were very happy. Now Emma wants to grow other vegetables, too.",
+    stem: "Why were the neighbors happy?",
+    choices: [
+      "Because Emma gave them some tomatoes.",
+      "Because they read many books.",
+      "Because they grew fifty tomatoes.",
+      "Because Emma cleaned the balcony.",
+    ],
+    answerIndex: 0,
+    explanation:
+      "She gave some to her neighbors, and they were very happy. の流れから、トマトをもらったことが理由。gave some の some は前文の tomatoes を指す。",
+    tags: ["理由"],
+  },
+  {
+    id: "english-reading-6",
+    subject: "english",
+    unit: "reading",
+    format: "multiple-choice",
+    difficulty: "standard",
+    passage:
+      "Emma loves plants. Last year she started growing tomatoes on her balcony. She read many books and watered them every day. In summer she got more than fifty tomatoes. She gave some to her neighbors, and they were very happy. Now Emma wants to grow other vegetables, too.",
+    stem: "Which is true about Emma?",
+    choices: [
+      "She took care of the tomatoes every day.",
+      "She sold her tomatoes at a shop.",
+      "She grew tomatoes in a large field.",
+      "She stopped growing plants this year.",
+    ],
+    answerIndex: 0,
+    explanation:
+      "watered them every day「毎日水をやった」が言い換えられている。売った・畑で育てた・やめた、はいずれも本文にない。balcony（ベランダ）で育てている点にも注意。",
+    tags: ["内容一致"],
+  },
 ];
