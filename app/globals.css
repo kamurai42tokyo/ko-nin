@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: system-ui, -apple-system, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
+}
+
+:root {
+  --background: #f6f7f9;
+  --foreground: #16181d;
+  --surface: #ffffff;
+  --border: #e4e7ec;
+  --muted: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0e1013;
+    --foreground: #e9eaee;
+    --surface: #181b20;
+    --border: #2a2f37;
+    --muted: #9aa1ad;
+  }
+}
+
+html {
+  /* iOS Safariで選択肢タップ時のハイライトを消す */
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* iOSで本文が勝手に拡大されるのを防ぐ */
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior-y: none;
+}
+
+/* ── 共通パーツ ───────────────────────────────── */
+
+.surface {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+/* ホームバーのある端末で下端UIが隠れないようにする */
+.pb-safe {
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 0.5rem);
+}
+
+.mb-safe {
+  margin-bottom: calc(env(safe-area-inset-bottom, 0px) + 4.25rem);
+}
+
+/* 長い数式が画面幅を超えたときだけ横スクロールさせる */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.25rem;
+}
+
+.katex {
+  font-size: 1.05em;
+}
